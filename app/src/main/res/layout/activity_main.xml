@@ -10,10 +10,11 @@
         android:id="@+id/rvMahasiswa"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnTambah"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/btn_1"
         android:text="Tambah"
         android:layout_alignParentBottom="true"
         android:layout_margin="10dp"/>

@@ -39,7 +39,7 @@ public class TambahActivity extends AppCompatActivity {
             etNama.setText(mahasiswa.fullName);
             etNPM.setText(mahasiswa.npm);
         } else {
-            isEdit =false;
+            isEdit = false;
         }
 
         btnSimpan.setOnClickListener(new View.OnClickListener() {
